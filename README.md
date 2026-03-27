@@ -223,7 +223,7 @@ npm run dev
 
 O frontend usa a API em `http://localhost:3001/` definida em `src/services/api.js`.
 
-## Observacoes para portfolio
+## Observacoes:
 
 - O repositorio esta organizado como um monorepo simples, com backend na raiz e frontend em `Interface-React/`.
 - O projeto utiliza dois bancos: PostgreSQL e MongoDB.
