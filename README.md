@@ -228,3 +228,15 @@ O frontend usa a API em `http://localhost:3001/` definida em `src/services/api.j
 - O repositorio esta organizado como um monorepo simples, com backend na raiz e frontend em `Interface-React/`.
 - O projeto utiliza dois bancos: PostgreSQL e MongoDB.
 - O checkout foi integrado com Stripe, e o painel administrativo cobre operacoes essenciais do catalogo e dos pedidos.
+
+## Cartoes de teste Stripe
+
+Para facilitar a avaliacao do fluxo completo de pagamento em ambiente de desenvolvimento, o recrutador pode usar os cartoes de teste abaixo no checkout:
+
+| Bandeira | Numero | CVC | Validade |
+| --- | --- | --- | --- |
+| Visa | `4242 4242 4242 4242` | Quaisquer 3 digitos | Qualquer data futura |
+| Visa Debito | `4000 0566 5566 5556` | Quaisquer 3 digitos | Qualquer data futura |
+| Mastercard | `5555 5555 5555 4444` | Quaisquer 3 digitos | Qualquer data futura |
+
+Observacao: esses dados sao proprios para testes com Stripe e permitem validar a integracao da API sem usar um cartao real.
