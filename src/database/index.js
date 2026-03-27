@@ -4,8 +4,9 @@ import databaseConfig from '../config/database.cjs';
 import User from '../app/models/User.js';
 import Product from '../app/models/Product.js';
 import Category from '../app/models/Category.js';
+import DeliveryFee from '../app/models/DeliveryFee.js';
 
-const models = [User, Product, Category];
+const models = [User, Product, Category, DeliveryFee];
 class Database {
   constructor() {
     this.init();

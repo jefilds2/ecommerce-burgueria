@@ -17,7 +17,7 @@ class UserController {
       name: Yup.string().required(),
       email: Yup.string().email().required(),
       password: Yup.string().min(6).required(),
-      admin: Yup.boolean().required(),
+      admin: Yup.boolean(),
     });
 
     try {
@@ -31,7 +31,7 @@ class UserController {
     const existingUser = await User.findOne({ where: { email } });
 
     if (existingUser) {
-      return response.status(400).json({
+      return response.status(409).json({
         message: 'Email already exists! Try another one.',
       });
     }

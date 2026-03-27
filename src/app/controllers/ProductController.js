@@ -69,6 +69,20 @@ class ProductController {
     return response.status(200).json();
   }
 
+  async destroy(request, response) {
+    const { id } = request.params;
+
+    const product = await Product.findByPk(id);
+
+    if (!product) {
+      return response.status(404).json({ error: 'Produto não encontrado.' });
+    }
+
+    await product.destroy();
+
+    return response.status(204).send();
+  }
+
   async index(_request, response) {
     const products = await Product.findAll({
       include: {

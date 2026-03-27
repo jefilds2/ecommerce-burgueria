@@ -66,6 +66,20 @@ class CategoryController {
     return response.status(201).json();
   }
 
+  async destroy(request, response) {
+    const { id } = request.params;
+
+    const category = await Category.findByPk(id);
+
+    if (!category) {
+      return response.status(404).json({ error: 'Categoria não encontrada.' });
+    }
+
+    await category.destroy();
+
+    return response.status(204).send();
+  }
+
   async index(_request, response) {
     const categories = await Category.findAll()
 

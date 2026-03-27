@@ -15,7 +15,7 @@ class SessionController {
 
     const emailOrPasswordMissing = () => {
       return response
-        .status(400)
+        .status(409)
         .json({ error: 'Email or password is missing.' });
     };
 
