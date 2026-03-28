@@ -1,4 +1,4 @@
-# Projeto 16 - Ecommerce Hamburgueria
+# Projeto Ecommerce Hamburgueria
 
 Aplicacao full stack de e-commerce para hamburgueria, com catalogo publico, autenticacao de usuarios, carrinho, checkout com Stripe e painel administrativo para gestao de produtos, categorias, pedidos e taxa de entrega.
 
