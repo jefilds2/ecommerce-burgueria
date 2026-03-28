@@ -1,10 +1,10 @@
 module.exports = {
   dialect: 'postgres',
-  host: process.env.PGHOST,
-  port: Number(process.env.PGPORT || 5432),
-  username: process.env.PGUSER,
-  password: process.env.PGPASSWORD,
-  database: process.env.PGDATABASE,
+  host: 'localhost',
+  port: 5432,
+  username: 'admin',
+  password: 'postgres',
+  database: 'devburguer-db',
   define: {
     timestamps: true,
     underscored: true,
