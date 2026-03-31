@@ -240,3 +240,18 @@ Para facilitar a avaliacao do fluxo completo de pagamento em ambiente de desenvo
 | Mastercard | `5555 5555 5555 4444` | Quaisquer 3 digitos | Qualquer data futura |
 
 Observacao: esses dados sao proprios para testes com Stripe e permitem validar a integracao da API sem usar um cartao real.
+
+## IMAGENS:
+
+<img width="1917" height="944" alt="home" src="https://github.com/user-attachments/assets/f4c1097c-d540-449b-8e38-86e8f7f93a0c" />
+<img width="1917" height="946" alt="home 2" src="https://github.com/user-attachments/assets/00762446-1342-451d-8beb-499180597319" />
+<img width="1919" height="947" alt="menu" src="https://github.com/user-attachments/assets/f4f20a32-5c85-498d-b1af-702ce12ab7ab" />
+<img width="1917" height="943" alt="menu 2" src="https://github.com/user-attachments/assets/8e5c797f-9ee2-4544-9b96-0164391bcf09" />
+<img width="1914" height="948" alt="Checkout" src="https://github.com/user-attachments/assets/411d1e71-2f7b-404d-a324-89a9fe8ddc08" />
+<img width="1917" height="945" alt="cadastro" src="https://github.com/user-attachments/assets/11719ebf-3754-4655-b07f-bbfad80e9ca3" />
+<img width="1917" height="946" alt="login" src="https://github.com/user-attachments/assets/851d1754-485a-4366-baaf-9c5b446a2892" />
+<img width="1916" height="949" alt="painel admin - pedidos " src="https://github.com/user-attachments/assets/8371df0b-5faa-4038-afd1-0fca9de043ec" />
+<img width="1919" height="949" alt="painel admin-produtos" src="https://github.com/user-attachments/assets/572ee00a-ebf7-4939-90a7-9d77a0c03a9c" />
+<img width="1916" height="948" alt="painel admin - adicionar produto" src="https://github.com/user-attachments/assets/9fc60820-9757-47eb-bc17-1476e3f898e4" />
+<img width="1918" height="953" alt="painel admin - adicionar categoria" src="https://github.com/user-attachments/assets/04883664-3044-4ef7-af15-3f92b15fbe3e" />
+<img width="1917" height="950" alt="painel admin - alterar taxa delivery" src="https://github.com/user-attachments/assets/1762984e-4dda-4e64-b9c5-9cff106b1137" />
